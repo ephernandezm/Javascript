@@ -1,3 +1,4 @@
+
 // alert('Hello from app.js')
 
 
@@ -20,4 +21,6 @@ const greeting = `${c} ${d}`
 
 c = 'Hello again'
 
-var myName = 'Emilio'
+// let outerWidth = 1000000
+// const outerHeight = 865
+let myName = 'Emilio'
