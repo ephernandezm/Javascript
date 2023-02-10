@@ -3,8 +3,16 @@
 
 let a = 1,
     b = 2,
-    c = 3,
-    d = 4,
+    c = 'Hello',
+    d = 'Rocky',
     x = a + b
 
-console.log(x)
+// console.log('%c My variables', 'color: red; font-weight: bold;')
+// console.log({ a })
+// console.log({ b })
+// console.log({ x })
+
+// console.table({ a, b, c, d, x })
+
+
+const greeting = `${c} ${d}`
