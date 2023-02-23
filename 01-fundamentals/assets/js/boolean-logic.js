@@ -41,7 +41,6 @@ const iAmUndefined = undefined
 const iAmNull = null
 const iAmFalse= false
 
-
 const a1 = false && 'Hello World' && 150
 const a2 = 'Hello' && 'World' && iAmFalse && true
 const a3 = iAmFalse || "I'm not fake anymore"
