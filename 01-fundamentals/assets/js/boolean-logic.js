@@ -34,3 +34,24 @@ console.log(false || false)
 console.log(returnsTrue() || returnsFalse())
 
 console.log('Four conditions', true || true || true || false) // true
+
+console.warn('Assignments')
+
+const iAmUndefined = undefined
+const iAmNull = null
+const iAmFalse= false
+
+
+const a1 = false && 'Hello World' && 150
+const a2 = 'Hello' && 'World' && iAmFalse && true
+const a3 = iAmFalse || "I'm not fake anymore"
+const a4 = iAmFalse || iAmUndefined || iAmNull || "I'm not fake again" || true
+const a5 = iAmFalse || iAmUndefined || returnsTrue() || "I'm not fake again"
+
+console.log({a1, a2, a3, a4, a5,})
+
+if (true || true || true || false) {
+    console.log('Do something')
+} else {
+    console.log('Do something else')
+}
